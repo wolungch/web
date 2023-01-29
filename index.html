@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>wolungchi web</title>
+    <meta name="keywords" content="wolungci,web game,somatosensory game,motion sensing game,android,app,game" />
+    <meta name="description" content="Fun web somatosensory games and android apps" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Google adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1843683251526838"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper_outer">
+        <div id="wrapper_inner">
+            <div id="banner"></div> <!-- end of banner -->
+            
+            <div id="menu">
+                <ul>
+                    <li><a href="#" id="menu_li1" class="current" onclick="Home();">Home</a></li>
+                    <script>
+                        function Home() {
+                            var elementMenuLi1 = document.getElementById("menu_li1");
+                            elementMenuLi1.style.color = "#ffffff";
+                            var elementMenuLi2 = document.getElementById("menu_li2");
+                            elementMenuLi2.style.color = "#999999";
+
+                            var elementDivWebGame = document.getElementById("DivWebGame");
+                            elementDivWebGame.style.display = "block";
+                            var elementDivAndroid = document.getElementById("DivAndroid");
+                            elementDivAndroid.style.display = "block";
+                            var elementDivContact = document.getElementById("DivContact");
+                            elementDivContact.style.display = "none";
+                        }
+                    </script>
+                    <li><a href="#" id="menu_li2" onclick="Contact();">Contact</a></li>
+                    <script>
+                        function Contact() {
+                            var elementMenuLi1 = document.getElementById("menu_li1");
+                            elementMenuLi1.style.color = "#999999";
+                            var elementMenuLi2 = document.getElementById("menu_li2");
+                            elementMenuLi2.style.color = "#FFFFFF";
+
+                            var elementDivWebGame = document.getElementById("DivWebGame");
+                            elementDivWebGame.style.display = "none";
+                            var elementDivAndroid = document.getElementById("DivAndroid");
+                            elementDivAndroid.style.display = "none";
+                            var elementDivContact = document.getElementById("DivContact");
+                            elementDivContact.style.display = "block";
+                        }
+                    </script>
+                </ul>
+            </div> <!-- end of menu -->
+
+            <div id="content_wrapper">
+                <div class="side_bar margin_right_10">
+                    <div class="header_01">Apps by Platform</div>
+                    <ul>
+                        <li><a href="webGame.html">Web Game</a></li>
+                        <li><a href="android.html">Android</a></li>
+                    </ul>
+                    <!--
+                    <div class="margin_bottom_20 horizontal_divider"></div>
+                    -->
+                    <div class="margin_bottom_20"></div>
+                    <div class="margin_bottom_20"></div>
+                </div> <!-- end of left side bar -->
+
+                <div class="content margin_right_10">
+
+                    <div id="DivWebGame" class="content_section">
+                        <div class="header_02">Web Game</div>
+                        <div class="image_wrapper_01"><img src="images/webgame_image.jpg" alt="image" /></div>
+                        <p>The web game contain many motion sensing game. Players need to install a web camera to play.It supports Edge、Chrome、Firefox mainstream browsers.</p>
+                        <div class="margin_bottom_20"></div>
+                        <div class="rc_btn_01 fl"><a href="webGame.html">Read More</a></div>
+
+                        <div class="margin_bottom_20 horizontal_divider"></div>
+                        <div class="margin_bottom_20"></div>
+                    </div>
+
+                    <div id="DivAndroid" class="content_section">
+                        <div class="header_02">Android</div>
+                        <div class="image_wrapper_01"><img src="images/android_image.jpg" alt="image" /></div>
+                        <p>The page contains many android apps,including tools and games,all of which can be downloaded from google play.</p>
+                        <div class="margin_bottom_20"></div>
+                        <div class="rc_btn_01 fl"><a href="android.html">Read More</a></div>
+
+                        <div class="margin_bottom_20 horizontal_divider"></div>
+                        <div class="margin_bottom_20"></div>
+                    </div>
+
+                    <div id="DivContact" class="content_section" style="display:none">
+                        <div class="header_02">Mail address</div>
+                        <div class="image_wrapper_01"><img src="images/gmail-icon.png" alt="image" /></div>
+                        <p style="color:#00ff21" ;=;>wolungch@gmail.com</p>
+                        <p>If you have any suggestions, please send a letter to the above mailbox.</p>
+                        <div class="margin_bottom_20"></div>
+
+                        <div class="margin_bottom_40"></div>
+                    </div>
+
+                </div> <!-- end of content -->
+
+                <div class="side_bar">
+                    <!--
+                    <div class="header_01">Latest News</div>
+		    <p>Our website game is free and play somatosensory game by use webcam or mobile phone front camera.Also include many interesting android applications are here.</p>
+                    <div class="margin_bottom_20"></div>
+                    -->
+
+                    <div class="margin_bottom_20 horizontal_divider"></div>
+                    <div class="margin_bottom_20"></div>
+
+                    <div class="header_01">Donate</div>
+                    <p>Your donate helps us have more resources to develop more fun and interesting games.</p>
+		    <div class="margin_bottom_20"></div>
+                </div> <!-- end of right side bar -->
+
+                <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="wolungchi" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Donate me" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+                <div class="cleaner"></div>
+            </div> <!-- end of content wrapper -->
+        </div>
+    </div>
+
+    <div id="footer">
+        Copyright © Taiwan <a href="#">wolungchi</a>
+    </div> <!-- end of footer -->
+    <div class="margin_bottom_10"></div>
+    <div class="content_section">
+        <div class="margin_bottom_10"></div>
+    </div>
+</body>
+</html>
